@@ -5,6 +5,4 @@ xlrd
 python-docx
 pdfplumber
 PyPDF2
-pdf2image
-pytesseract
-Pillow
+google-generativeai
