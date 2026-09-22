@@ -638,4 +638,7 @@ with tab6:
                 st.success("Đã xóa!")
                 st.rerun()
     elif mk:
-        st.error("❌ Sai mật
+        st.error("❌ Sai mật khẩu")
+
+st.markdown("---")
+st.caption("📌 Công cụ hỗ trợ đối chiếu tự động dựa trên Luật BHXH 2024.")
