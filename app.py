@@ -68,7 +68,7 @@ def doc_file_bang_ai(file_bytes, file_name, loai_file):
     try:
         import google.generativeai as genai
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.0-flash')
+        model = genai.GenerativeModel('gemini-3.6-flash')
     except Exception as e:
         return {"error": f"Lỗi cấu hình Gemini: {e}"}
     
